@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+.idea/
+.vscode/
+
+# --- 원본 데이터 ---
+# MNIST 원본(ubyte·gz)은 다운로드 스크립트로 받는다.
+data/raw/
+
+# --- 로컬 전용 (원격과 동일하게 가므로 애초에 커밋하지 않는다) ---
+HANDOFF.md
+plans/
